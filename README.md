@@ -34,4 +34,4 @@ of any arity but has worse type errors.
 
 Note that totality is only guaranteed if each constructor has different
 arguments, otherwise you could potentially replace the constructor argument to
-one of the `add`s with a different constructor with the same type.
+one of the `add`s with a different constructor of the same type.
